@@ -80,7 +80,9 @@ This repository accompanies the report:
 > Keerthana Koluguri (2026), **“Forecasting UK Retail Sales Using LSTM, SARIMAX and Exogenous Macroeconomic Indicators”**, MSc Data Science, University of Hertfordshire.
 
 The report describes the methodology, experimental design, results, limitations and future work in detail. This repo focuses on the reproducible code and main figures used in that report.
+## Report
 
+- `report/DS-FINAL-Keerthana.pdf` – Final MSc project report that explains the methodology, experiments, results and conclusions that this code supports.
 ## License
 
 This code is provided for academic and learning purposes. Official ONS datasets remain subject to the terms specified by the Office for National Statistics.
