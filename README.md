@@ -7,7 +7,7 @@ The project builds an end‑to‑end forecasting pipeline for the UK **Retail Sa
 ## Repository structure
 
 - `notebooks/`
-  - `ONS_retail_LSTM_baseline.ipynb`  
+  - `ONS_retail_.ipynb`  
     One‑step LSTM baseline: feature engineering, leakage‑aware scaling, sequence construction, model training with early stopping, and evaluation on train/validation/test splits.
    ONS_retail_LSTM_baseline.ipynb`
     Extended pipeline with exogenous GDP/CPI features, direct multi‑horizon targets (t+3, t+6, t+12), SARIMAX with exogenous variables, LSTM hyperparameter search, and LSTM–SARIMAX ensembles.
@@ -70,8 +70,8 @@ The pipeline is implemented in Python using `pandas`, `numpy`, `scikit-learn`, `
 
 3. Open the notebooks in Jupyter/Colab:
 
-   - Run `ONS_retail_LSTM_baseline.ipynb` to reproduce the one‑step LSTM results.  
-   - Run `ONS_retail_multi_horizon_LSTM_SARIMAX_ensemble.ipynb` to reproduce the multi‑horizon and ensemble experiments.
+   - Run `ONS_retail.ipynb`  
+  
 
 ## Project context
 
