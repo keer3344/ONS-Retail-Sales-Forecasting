@@ -9,7 +9,7 @@ The project builds an end‑to‑end forecasting pipeline for the UK **Retail Sa
 - `notebooks/`
   - `ONS_retail_LSTM_baseline.ipynb`  
     One‑step LSTM baseline: feature engineering, leakage‑aware scaling, sequence construction, model training with early stopping, and evaluation on train/validation/test splits.
-  - `ONS_retail_multi_horizon_LSTM_SARIMAX_ensemble.ipynb`  
+   ONS_retail_LSTM_baseline.ipynb`
     Extended pipeline with exogenous GDP/CPI features, direct multi‑horizon targets (t+3, t+6, t+12), SARIMAX with exogenous variables, LSTM hyperparameter search, and LSTM–SARIMAX ensembles.
   
 
